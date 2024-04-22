@@ -84,8 +84,8 @@ exit
 
 router bgp 65055
 neighbor 100.126.200.5 remote-as 65000
-neighbot 100.126.200.5 route-map PERMIT-ALL in
-neighbot 100.126.200.5 route-map PERMIT-ALL out
+neighbor 100.126.200.5 route-map PERMIT-ALL in
+neighbor 100.126.200.5 route-map PERMIT-ALL out
 exit
 
 ```
