@@ -28,7 +28,7 @@ route-map PERMIT-ALL permit 999
 quit
 
 router bgp 65055
-neighbor 100.126.100.1 remote-as 111
+neighbor 100.126.100.1 remote-as 65000
 neighbor 100.126.100.1 route-map PERMIT-ALL in
 neighbor 100.126.100.1 route-map PERMIT-ALL out 
 quit
